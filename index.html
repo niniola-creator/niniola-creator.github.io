@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hannah Niniola | Data Analyst Portfolio ">
+    <title>Hannah Niniola</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="user1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand fs-2 my-1 " id = "brand-name" target="_self" >Níní</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ms-auto fs-6 pt-2 " >
+          <li class="nav-item"><a class="nav-link mx-2" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link mx-2" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link mx-2" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link mx-2" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link mx-2 resume" href="https://drive.google.com/file/d/176hNE9Ms-Wlfo8h60bnIVqcchc071tXE/view"  target="_blank" rel="noopener noreferrer">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id = "home" class="scroll-section main-header mb-5">
+  <div class = "hero-content">
+    <h1 class="texts-start ">Hello, I'm<br> Hannah</h1>
+    <p class="info pt-2">Data Analyst | Frontend Developer </p>
+    <a class="icon-link  pt-5" id="about" href="about.html" target="_self">See More About Me <span class="arrow-right" style= "font-size: 20px;">&#8594;</span></a> 
+  </div>
+    
+   <div class="overlay"></div> 
+  </header>
+
+  <main>
+    <section id="skills" class="scroll-section container-fluid py-5 fade-in-on-scroll">
+      <div class="row text-center mb-5">
+        <h3 class=" heading-underline  mb-2">Skills</h3>
+      </div>
+      <div class=" skills-card row text-center justify-content-center fade-in-on-scroll">
+        <div class="card mx-3 mb-3  shadow  d-flex flex-column align-items-center" style="width: 11rem;">
+          <img src ="python-logo.png" alt="Python" class="mt-5" style="height: 50px;">
+          <h5 class="mt-4">Statistical Programming</h5>
+          <p class="text mt-3">Python</p>
+        </div>  
+        <div class="card mx-3 mb-3 shadow d-flex flex-column align-items-center" style="width: 11rem;" >
+          <img src="powerbi.png" alt="Power BI" class="mt-5" style="height: 50px;">
+          <h5 class="mt-4">Data Visualization</h5>
+          <p class="text mt-3">Power BI</p>
+        </div>  
+        <div class="card mx-3 mb-3 shadow  d-flex flex-column align-items-center" style="width: 11rem;">
+          <div class="d-flex justify-content-center gap-1">
+            <img  src="sql-logo.svg" alt="SQL" class="mt-5 p-1" style="height: 50px;">
+            <img src="table-logo.svg" alt="Excel" class="mt-5 p-1" style="height: 50px;">
+          </div>
+          <h5 class="mt-4">Data Management</h5>
+          <p class="text mt-3">SQL & Excel</p>
+        </div>
+        <div class="card mx-3 mb-3 shadow d-flex flex-column align-items-center" style="width: 11rem;">
+          <img src="code-logo.svg" alt="Frontend Dev" class="mt-5 p-1" style="height: 50px;">
+          <h5 class="mt-4">Front-End Development</h5>
+          <p class="text mt-3">HTML, CSS & JavaScript</p>
+        </div>
+      </div> 
+    </section>
+   
+    <section id="projects" class="scroll-section container-fluid py-5 fade-in-on-scroll">
+      <div class="row text-center mb-5">
+        <h3 class="heading-underline text-center mb-2">Projects</h3>
+      </div>
+      <div class=" projects-card row text-center justify-content-center fade-in-on-scroll">
+        <div class="card mx-2 mb-4 shadow d-flex flex-column align-items-center" style="width: 25rem;">
+          <img src="air_quality_image.webp" alt="Air Quality Image" class="mt-3 rounded img-fluid" style="width: 100%; max-height: 170px; object-fit: cover;">
+          <div class="mt-4 fs-5 fw-medium d-flex justify-content-between align-items-center w-100"><span>Air Quality Analysis of (PM<sub>10</sub>)</span>
+            <div class="d-flex gap-3">
+              <a href="project1.html" target="_self" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right" style="font-size: 20px; color: #444;"></i></a>
+              <a href="https://github.com/niniola-creator/air_quality_analysis" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" style="font-size: 20px; color: #444;"></i></a>
+            </div>
+          </div>
+          <div class="d-flex flex-wrap gap-2 align-self-start pt-3">
+            <button type="button" class="btn btn-light mb-3 fw-small shadow-lg" style="background-color: #444; color: #fff;">Python</button>
+            <button type="button" class="btn btn-light mb-3 fw-small shadow-lg" style="background-color: #444; color: #fff;">Pandas</button>
+            <button type="button" class="btn btn-light mb-3 fw-small shadow-lg" style="background-color: #444; color: #fff;">Matplotlib</button>
+            <button type="button" class="btn btn-light mb-3 fw-small shadow-lg" style="background-color: #444; color: #fff;">Seaborn</button>
+          </div>
+        </div>
+
+        <div class="card  mx-2 mb-4 shadow d-flex flex-column align-items-center" style="width: 25rem;">
+          <img src="snap_image.webp" alt="Snap Image" class="mt-3 rounded img-fluid " style="width: 100%; max-height: 167px; object-fit: cover;">
+          <div class="mt-4 fs-5 fw-medium d-flex justify-content-between align-items-center w-100"><span>Front-End Mentor: Snap</span>
+            <div class="d-flex gap-3">
+              <a href = "#" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right" style="font-size: 20px; color: #444;"></i></a>
+              <a href="https://github.com/niniola-creator/repo" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" style="font-size: 20px; color: #444;"></i></a>
+            </div> 
+          </div>
+          <div class="d-flex flex-wrap gap-2 align-self-start  pt-3">
+            <button type="button" class="btn btn-light mb-3 fw-small shadow-lg" style="background-color: #444; color: #fff;">HTML</button>
+            <button type="button" class="btn btn-light mb-3 fw-small shadow-lg" style="background-color: #444; color: #fff;">CSS</button>
+            <button type="button" class="btn btn-light mb-3 fw-small shadow-lg" style="background-color: #444; color: #fff;">JavaScript</button>
+            <button type="button" class="btn btn-light mb-3 fw-small shadow-lg" style="background-color: #444; color: #fff;">Bootstrap</button>
+          </div>
+        </div>
+
+        <div class="card  mx-2 mb-4 shadow d-flex flex-column align-items-center" style="width: 25rem;">
+          <img src="website.png" alt="Snap Image" class="mt-3 rounded img-fluid" style="width: 100%; max-height: 300px; object-fit: cover;">
+          <div class="mt-4 fs-5 fw-medium d-flex justify-content-between align-items-center w-100"><span>Portfolio Website</span>
+            <div class="d-flex gap-3">
+              <a href = "#" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right" style="font-size: 20px; color: #444;"></i></a>
+              <a href="https://github.com/niniola-creator/your-repo" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" style="font-size: 20px; color: #444;"></i></a>
+            </div> 
+          </div>
+          <div class="d-flex flex-wrap gap-2 align-self-start pt-3" >
+            <button type="button" class="btn btn-light  mb-3 fw-small align-self-start shadow-lg" style="background-color: #444; color: #fff;" >HTML</button>
+            <button type="button" class="btn btn-light  mb-3 fw-small align-self-start shadow-lg" style="background-color: #444; color: #fff;" >CSS</button>
+            <button type="button" class="btn btn-light  mb-3 fw-small align-self-start shadow-lg" style="background-color: #444; color: #fff;" >JavaScript</button>
+            <button type="button" class="btn btn-light  mb-3 fw-small align-self-start shadow-lg" style="background-color: #444; color: #fff;" >Bootstrap</button>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <section id="certifications" class="py-5 container-fluid fade-in-on-scroll ">
+      <div class="row text-center mb-5">
+        <h2 class="text-center heading-underline mb-2">My Certifications</h2>
+
+        <div class="cert-card row justify-content-center fade-in-on-scroll">
+          <div class="card mx-2 px-0 shadow mt-5 d-flex flex-column align-items-center" style="width: 18rem;">
+            <a href="https://www.udemy.com/certificate/UC-43869466-fc02-4b1c-a628-cd1eeefc7835/"  target="_blank" rel="noopener noreferrer">
+            <img src="udemy_cert.jpg" class="card-img-top img-fluid py-1 px-1" alt="Udemy Certificate" style="height: 100%; width: 100%;"></a>
+          </div>
+          <div class="card mx-2 shadow mt-5 d-flex flex-column align-items-center" style="width: 18rem;">
+            <a href="https://coursera.org/verify/GZ6NMVJUFSHE"  target="_blank" rel="noopener noreferrer">
+            <img src="google-analytics_cert.png" class="card-img-top img-fluid py-2" alt="Google Analytics Certificate" style="height: auto; width: 100%;"></a>
+          </div>
+          <div class="card mx-2 shadow mt-5 d-flex flex-column align-items-center" style="width: 18rem;">
+            <a href="https://coursera.org/share/8e2303d62e6bb360103d2c1ac0ad533b"  target="_blank" rel="noopener noreferrer">
+            <img src="front-end_cert.png" class="card-img-top img-fluid py-2" alt="Meta Front-End Certificate" style="height: auto; width: 100%;"></a>
+          </div>
+          <div class="card mx-2 shadow mt-5 d-flex flex-column align-items-center" style="width: 18rem;">
+            <a href="http://coursera.org/verify/EFHWDTVS2TMC"  target="_blank" rel="noopener noreferrer">
+            <img src="js_cert.png" class="card-img-top img-fluid py-2" alt="Meta Front-End Certificate" style="height: auto; width: 100%;"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class=" container-fluid py-1">
+    <div class="contact-section">
+      <h3 class="mt-5 connect">Connect with me!</h3>
+      <a href="https://www.notion.so/Hannah-Niniola-Data-Analyst-Portfolio-1d691edcb01880758f5dca10f3e7ca55?pvs=4"  target="_blank" rel="noopener noreferrer"><img src="notion-logo-white.png"  alt="Notion Profile"></a>
+      <a href="https://github.com/niniola-creator"  target="_blank" rel="noopener noreferrer"><img src="github-logo.svg" alt="GitHub Profile"></a>
+      <a href="https://www.linkedin.com/in/annalinkedlin/"  target="_blank" rel="noopener noreferrer"><img src="linkedin-logo.svg" alt="LinkedIn Profile"></a>
+      <a href="mailto:niniolaanna@gmail.com"><img src="email-logo.svg" alt="Email"></a>
+    </div>
+    <div class="footer-nav">
+      <div class="footer-top">
+        <a href="#top" class="back-to-top">Back to top <span style= "font-size: 15px;">&#8593;</span> </a>
+      </div>
+      
+    </div>
+    <p>&copy; Hannah Niniola. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

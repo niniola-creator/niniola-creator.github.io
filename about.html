@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="user1.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg sticky-top" id="navbar" >
+    <div class="container">
+      <a href="index.html" class="navbar-brand fs-2 my-1" id = "brand-name" target="_self" >Níní</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+        <ul class="navbar-nav ms-auto fs-6 pt-2 " >
+          <li class="nav-item"><a class="nav-link mx-2" href="index.html#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link mx-2" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link mx-2" href="index.html#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link mx-2" href="index.html#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link mx-2 resume" href="https://drive.google.com/file/d/176hNE9Ms-Wlfo8h60bnIVqcchc071tXE/view"  target="_blank" rel="noopener noreferrer">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id = "home" class="scroll-section main-header">
+    <h1 class="abt-intro">Scroll down to know <br> more about me!</h1><br>
+    <div class = "hero-content center-icon position-relative">
+      <a href="about.html#about-me" class="text-reset scroll-hint"><i class="bi bi-chevron-double-down"></i></a>  
+    </div>
+          
+    <div class="overlay"></div> 
+  </header>
+
+  <div class="container-fluid bg-light">
+    <div class="row pt-3 px-4">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb   fw-medium">
+          <li class="breadcrumb-item"><a href="index.html" class="text-reset text-decoration-none">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">About</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+        
+  <main>
+    <section id = "about-me" class="scroll-section container-fluid pb-5">
+      <div class="row align-items-center px-4">
+        <div class="col-md-7 fade-in-on-scroll">
+          <h3 class="mt-3">About Me</h3>
+          <p class="text-justify mt-3">
+            Hi! my name is Hannah Niniola,  I'm a data analyst with a background in geology and a growing passion for turning data into stories.
+            I've worn many hats over the years from being a research geoscientist to a high school teacher and even a front-end web developer.<br>Along the way, 
+            I've discovered that what I enjoy most is using data 
+            to make smart and  meaningful decisions that produce results.
+            I'm always looking for ways in which I can maximise data to make processes smoother, insights clearer and outcomes better.<br>Right now,
+            I'm actively exploring the world of data science and analytics, working with tools like Python, Excel, SQL
+            and Power BI.
+          </p>
+        </div> 
+        <div class="col-md-5 text-end fade-in-on-scroll">
+            <img id="my-img" src="my_image.webp"  alt="Hannah" class="img-fluid rounded shadow mt-5">
+        </div>
+      </div>
+    </section>
+  </main>
+    
+  <footer id="contact" class=" container-fluid container6 py-1">
+    <div class="contact-section">
+      <h3 class="mt-5 connect">Connect with me!</h3>
+      <a href="https://www.notion.so/Hannah-Niniola-Data-Analyst-Portfolio-1d691edcb01880758f5dca10f3e7ca55?pvs=4"  target="_blank" rel="noopener noreferrer"><img src="notion-logo-white.png"  alt="Notion Profile" class="img-fluid"></a>
+      <a href="https://github.com/niniola-creator"  target="_blank" rel="noopener noreferrer"><img src="github-logo.svg" alt="GitHub Profile" class="img-fluid"></a>
+      <a href="https://www.linkedin.com/in/annalinkedlin/"  target="_blank" rel="noopener noreferrer"><img src="linkedin-logo.svg" alt="LinkedIn Profile" class="img-fluid"></a>
+      <a href="mailto:niniolaanna@gmail.com"><img src="email-logo.svg" alt="Email"></a>
+    </div>
+    <div class="footer-nav">
+      <div class="footer-top">
+        <a href="#top" class="back-to-top">Back to top <span style= "font-size: 15px;">&#8593;</span> </a>
+      </div>  
+    </div>
+    <p>&copy; Hannah Niniola. All rights reserved.</p>
+  </footer>
+      
+        
+    
+    
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
