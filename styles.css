@@ -353,7 +353,8 @@ footer p {
     letter-spacing: 1px;
   }
   .text-justify{
-    line-height: 1.6;  
+    line-height: 1.8; 
+    text-align: left;
   }
 
   #my-img {  
