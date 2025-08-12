@@ -281,7 +281,7 @@ footer .contact-section img:hover{
 }
 
 .footer-nav a {
-  margin: 20px 10px;
+  margin: 0 10px;
   color: #ccc;
   text-decoration: none;
   text-transform: uppercase;
@@ -312,7 +312,7 @@ footer p {
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: 500;
-  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .back-to-top:hover {
@@ -378,5 +378,6 @@ footer p {
   }
   
 }
+
 
 
