@@ -312,7 +312,7 @@ footer p {
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: 500;
-  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .back-to-top:hover {
@@ -378,6 +378,7 @@ footer p {
   }
   
 }
+
 
 
 
